@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+public class Main {
   public static void main(String[] args) {
     //Ask the user here
 	  Stable s = new Stable();
@@ -21,13 +21,10 @@ class Main {
 				boolean t = scanner.nextBoolean();
 				h = new Horse(hn, w, t);
 				s.arrayList.add(h);
-			}//testing goodest 4
-			else{
+			} else{
 				break;
 			}
 		}while(true);
-		//Display the info here
-                //You code here!
-	  }
+		System.out.println(s);
   }
 }
